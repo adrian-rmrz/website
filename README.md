@@ -9,7 +9,7 @@ git clone git@github.com:adrian-rmrz/website.git
 ```
 - Next, `cd` into where the repository is located
 - Run `npm install` to install the node packages
-- Finally, run `node server.mjs` to start up the server, by default, the port will be 8000
+- Finally, run `node server.mjs` to start up the server, by default, the port will be `8000`
 
 ## index.html
 The home or landing page of the site. Currently, the page just has a landscape picture of me and with a welcome message to the site. However, my plans for the future of this page are adding a parallax effect to the page, making it more dynamic. Thoughts of also making a loading page are also being considered.
