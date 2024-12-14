@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components {
+    .sidebar {
+        @apply h-full w-16 flex flex-col items-center justify-center relative bg-gray-800 text-white space-y-2
+    }
+    .sidebar:hover {
+        @apply w-32 duration-200
+    }
+
+    .sidebar-item {
+        @apply h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer focus:bg-white text-2xl
+    }
+    .sidebar-item:hover {
+        @apply text-gray-800 bg-white duration-200 ease-linear
+    }
+}

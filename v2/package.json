@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "2.0.0",
+  "description": "This project was originally a personal website that I built for a web development course at the University of St. Thomas. However, I have since decided to create a more professional and personal website. I took the core concepts and ideas from the project and will adapt to better suit this new approach as well as my better knowledge of web development. I'm planning to use more frameworks in order to streamline development, something that I didn't utilize until further into the creation of my last website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
