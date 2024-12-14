@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    $("button").click(function () {
-        $("h1").html("yes");
+    $(".sidebar").on("mouseover", function () {
+        $(".sidebar-itemname").show();
+    });
+    $(".sidebar").on("mouseout", function () {
+        $(".sidebar-itemname").hide();
     });
 });

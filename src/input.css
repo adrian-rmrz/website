@@ -15,9 +15,13 @@
     }
 
     .sidebar-item {
-        @apply h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer focus:bg-white text-2xl
+        @apply flex items-center justify-center rounded-lg cursor-pointer focus:bg-white text-lg
     }
     .sidebar-item:hover {
         @apply text-gray-800 bg-white duration-200 ease-linear
+    }
+
+    .sidebar-itemname {
+        @apply hidden
     }
 }

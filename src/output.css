@@ -584,14 +584,12 @@ video {
 
 .sidebar-item {
   display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .sidebar-item:focus {
@@ -606,6 +604,10 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
   transition-duration: 200ms;
   transition-timing-function: linear;
+}
+
+.sidebar-itemname {
+  display: none;
 }
 
 .relative {
