@@ -6,7 +6,7 @@ import * as url from 'node:url';
 
 const port = 8000;
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.join(__dirname, 'src');
+const root = path.join(__dirname, 'docs');
 const template = path.join(__dirname, 'templates');
 
 let app = express();
