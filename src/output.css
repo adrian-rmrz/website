@@ -566,8 +566,8 @@ video {
 
 .sidebar > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .sidebar {
@@ -584,12 +584,13 @@ video {
 
 .sidebar-item {
   display: flex;
+  height: 2.5rem;
+  width: 7rem;
   cursor: pointer;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   border-radius: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 20px;
 }
 
 .sidebar-item:focus {
@@ -598,16 +599,21 @@ video {
 }
 
 .sidebar-item:hover {
+  width: 7rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
   transition-duration: 200ms;
-  transition-timing-function: linear;
 }
 
 .sidebar-itemname {
   display: none;
+  font-size: 18px;
+}
+
+.sidebar-itemname:hover {
+  transition-duration: 200ms;
 }
 
 .relative {
