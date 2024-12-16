@@ -8,17 +8,17 @@
 
 @layer components {
     .sidebar {
-        @apply h-full w-16 flex flex-col items-center justify-center relative bg-gray-800 text-white space-y-5
+        @apply h-full w-16 flex flex-col items-center justify-center relative text-gray-800 bg-white space-y-5
     }
     .sidebar:hover {
         @apply w-32 duration-200
     }
 
     .sidebar-item {
-        @apply flex h-10 w-28 rounded-lg cursor-pointer focus:bg-white text-[20px] items-center justify-evenly
+        @apply flex h-10 w-32 rounded-lg cursor-pointer focus:bg-gray-900 text-[20px] items-center justify-evenly
     }
     .sidebar-item:hover {
-        @apply text-gray-800 bg-white duration-200 w-28
+        @apply bg-gray-800 text-white duration-200 w-28
     }
 
     .sidebar-itemname {
